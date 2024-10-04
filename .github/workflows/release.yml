@@ -1,0 +1,36 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main  # Run the workflow when pushing to the 'main' branch
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'adopt'
+          java-version: '17'  # Adjust the Java version according to your project
+
+      - name: Build project with Maven
+        run: mvn clean install
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'  # Required to run semantic-release
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Provided by GitHub Actions to interact with GitHub API
+        run: npx semantic-release
