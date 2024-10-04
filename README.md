@@ -1,1 +1,1 @@
-# semantic-release-test-repo
+# semantic-release-test-repo - java
