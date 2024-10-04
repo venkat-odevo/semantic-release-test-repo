@@ -20,7 +20,7 @@ jobs:
           java-version: '17'  # Adjust the Java version according to your project
 
       - name: Build project with Maven
-        run: mvn clean install
+        run: mvn -f my-app/pom.xml clean install
 
       - name: Set up Node.js
         uses: actions/setup-node@v2

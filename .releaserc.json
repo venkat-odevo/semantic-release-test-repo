@@ -9,8 +9,8 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "mvn versions:set -DnewVersion=${nextRelease.version}",
-        "publishCmd": "mvn clean install"
+        "prepareCmd": "mvn -f my-app/pom.xml versions:set -DnewVersion=${nextRelease.version}",
+        "publishCmd": "mvn -f my-app/pom.xml clean install"
       }
     ]
   ]
