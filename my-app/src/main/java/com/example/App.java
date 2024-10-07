@@ -2,6 +2,7 @@ package com.example;
 
 /**
  * Hello world!
+ * Welcome to Odevo !!
  *
  */
 public class App 
