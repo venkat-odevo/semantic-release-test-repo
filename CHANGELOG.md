@@ -1,3 +1,15 @@
+## [1.2.1](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v1.2.0...v1.2.1) (2024-10-07)
+
+
+### Bug Fixes
+
+* Java document fix in app.java ([f3800a2](https://github.com/venkat-odevo/semantic-release-test-repo/commit/f3800a2f07b27b1990f676443a8c4e0862e2535e))
+
+
+### Performance Improvements
+
+* Improve app performance ([220484b](https://github.com/venkat-odevo/semantic-release-test-repo/commit/220484ba94f6f760a80b174dd996883f7e0ae347))
+
 # [1.2.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v1.1.1...v1.2.0) (2024-10-07)
 
 
