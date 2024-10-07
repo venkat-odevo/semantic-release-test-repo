@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v1.2.2...v2.0.0) (2024-10-07)
+
+
+### Features
+
+* Adding new message ([82c844a](https://github.com/venkat-odevo/semantic-release-test-repo/commit/82c844a05764bccabccb11a6551a2ac3cf34d8c9))
+
+
+### BREAKING CHANGES
+
+* Adding a new welcome message
+
 ## [1.2.2](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v1.2.1...v1.2.2) (2024-10-07)
 
 
