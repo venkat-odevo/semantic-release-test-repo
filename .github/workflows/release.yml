@@ -42,5 +42,5 @@ jobs:
 
       - name: Run semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Provided by GitHub Actions to interact with GitHub API
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: npx semantic-release
