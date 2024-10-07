@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v1.0.0...v1.1.0) (2024-10-07)
+
+
+### Features
+
+* Updated readme file ([8cb702d](https://github.com/venkat-odevo/semantic-release-test-repo/commit/8cb702d530536a147a0460f20852ddd7a6f18cc6))
+
 # 1.0.0 (2024-10-07)
 
 
