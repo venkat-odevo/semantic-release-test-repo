@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v1.1.1...v1.2.0) (2024-10-07)
+
+
+### Features
+
+* Adding a new info statment in main class ([1bdb188](https://github.com/venkat-odevo/semantic-release-test-repo/commit/1bdb1884cf37df6febe64f6501db084a2e141127))
+
 ## [1.1.1](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v1.1.0...v1.1.1) (2024-10-07)
 
 
