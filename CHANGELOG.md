@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v1.1.0...v1.1.1) (2024-10-07)
+
+
+### Bug Fixes
+
+* Update workflow to use PAT_TOKEN ([058a3b1](https://github.com/venkat-odevo/semantic-release-test-repo/commit/058a3b1af777b7ee80a39cac5af6cb7daedf6369))
+
 # [1.1.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v1.0.0...v1.1.0) (2024-10-07)
 
 
