@@ -5,6 +5,8 @@ on:
     branches:
       - main  # Run the workflow when pushing to the 'main' branch
 
+permissions: write-all
+
 jobs:
   release:
     runs-on: ubuntu-latest
