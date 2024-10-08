@@ -25,7 +25,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'  # Required to run semantic-release
+          node-version: '21'
 
       - name: Cache Node modules
         uses: actions/cache@v3
