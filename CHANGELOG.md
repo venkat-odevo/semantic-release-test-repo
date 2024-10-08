@@ -1,3 +1,16 @@
+## [2.0.1](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.0.0...v2.0.1) (2024-10-08)
+
+
+### Bug Fixes
+
+* change the semantic package version and node version ([08d9a50](https://github.com/venkat-odevo/semantic-release-test-repo/commit/08d9a50e18c6fd50c3e942b56dcdcd199fcef1c1))
+* update the node version in the workflow ([22a596a](https://github.com/venkat-odevo/semantic-release-test-repo/commit/22a596aac04c8c2c7c33370cafa1ed7fe66dd05d))
+
+
+### Performance Improvements
+
+* update the semantic release version ([4f6eb68](https://github.com/venkat-odevo/semantic-release-test-repo/commit/4f6eb68c78c2efe23f7f0d9e5b4f3fa9ee4c6fb2))
+
 # [2.0.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v1.2.2...v2.0.0) (2024-10-07)
 
 
