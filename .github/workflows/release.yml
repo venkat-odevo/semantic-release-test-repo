@@ -40,5 +40,5 @@ jobs:
 
       - name: Run semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SA_ACCESS_TOKEN }}
         run: npx semantic-release
