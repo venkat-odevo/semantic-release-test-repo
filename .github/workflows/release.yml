@@ -38,7 +38,14 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
+      - name: Get Sercie Account Token
+        id: get_workflow_token
+        uses: peter-murray/workflow-application-token-action@v3
+        with:
+          application_id: ${{ secrets.SA_ACCESS_TOKEN }}
+          application_private_key: ${{ secrets.SA_ACCESS_TOKEN_PRIVATE_KEY }}
+
       - name: Run semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.SA_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
         run: npx semantic-release
