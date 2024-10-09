@@ -1,3 +1,10 @@
+## [2.5.1](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.5.0...v2.5.1) (2024-10-09)
+
+
+### Bug Fixes
+
+* Fix the workflow to get the version from drurun ([7e36961](https://github.com/venkat-odevo/semantic-release-test-repo/commit/7e369619e1ec7eacd838ee1fc5826ee548e2e26b))
+
 # [2.5.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.4.0...v2.5.0) (2024-10-09)
 
 
