@@ -19,9 +19,6 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
-      - name: Build project with Maven
-        run: mvn -f my-app/pom.xml clean install
-
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -37,6 +34,24 @@ jobs:
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
+
+      - name: Run Semantic Release to Determine Next Version
+        id: semantic_release
+        run: npx semantic-release --dry-run || true
+
+      - name: Read Version
+        id: get_version
+        run: |
+          if [ -f .next_version ]; then
+            echo "VERSION=$(cat .next_version)" >> $GITHUB_ENV
+          fi
+
+      - name: Build project with Release version
+        env:
+          VERSION: ${{ env.VERSION }}
+        run: |
+          echo "Building project with version ${VERSION}"
+          mvn -f my-app/pom.xml clean install versions:set -DnewVersion="$VERSION"
 
       - name: Get Service Account Token
         id: get_workflow_token
