@@ -59,7 +59,6 @@ jobs:
           echo "Building project with version ${VERSION}"
           mvn -f my-app/pom.xml clean install versions:set -DnewVersion="$VERSION"
 
-
       - name: Run semantic-release
         env:
           GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
