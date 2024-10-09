@@ -37,13 +37,12 @@ jobs:
 
       - name: Run Semantic Release to Determine Next Version
         id: semantic_release
-        run: npx semantic-release --dry-run || true
-
-      - name: Read Version
-        id: get_version
         run: |
+          npx semantic-release --dry-run || true
           if [ -f .next_version ]; then
-            echo "VERSION=$(cat .next_version)" >> $GITHUB_ENV
+            cat .next_version
+          else
+            echo ".next_version file not found."
           fi
 
       - name: Build project with Release version
