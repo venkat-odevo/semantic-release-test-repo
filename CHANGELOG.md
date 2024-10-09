@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.4.0...v2.5.0) (2024-10-09)
+
+
+### Features
+
+* update workflow ([e690447](https://github.com/venkat-odevo/semantic-release-test-repo/commit/e690447c3604d86c12e62455872d2b7fe44f8ee7))
+
 # [2.4.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.3.0...v2.4.0) (2024-10-09)
 
 
