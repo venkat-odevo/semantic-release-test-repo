@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.1.1...v2.2.0) (2024-10-09)
+
+
+### Features
+
+* remove welcome message ([c4ff19c](https://github.com/venkat-odevo/semantic-release-test-repo/commit/c4ff19c5d9a62c78807aaa9eaca66e3a04bab49b))
+
 ## [2.1.1](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.1.0...v2.1.1) (2024-10-09)
 
 
