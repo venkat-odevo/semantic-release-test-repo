@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.1.0...v2.1.1) (2024-10-09)
+
+
+### Bug Fixes
+
+* Typo fix in workflow ([bb1c4b2](https://github.com/venkat-odevo/semantic-release-test-repo/commit/bb1c4b21433537b41c742f339f3ee128096fefc7))
+
 # [2.1.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.0.1...v2.1.0) (2024-10-09)
 
 
