@@ -58,7 +58,7 @@ jobs:
         run: |
           echo "Building project with version ${VERSION}"
           mvn -f my-app/pom.xml versions:set -DnewVersion="$VERSION" -DgenerateBackupPoms=false
-          mvn -f my-app/pom.xml clean install"
+          mvn -f my-app/pom.xml clean install
 
       - name: Run semantic-release
         env:
