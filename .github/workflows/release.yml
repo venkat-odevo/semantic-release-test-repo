@@ -42,7 +42,7 @@ jobs:
           application_id: ${{ vars.SA_ACCESS_TOKEN_ID }}
           application_private_key: ${{ secrets.SA_ACCESS_TOKEN }}
 
-      - name: Run Semantic Release to Determine Next Version
+      - name: Run Semantic Release to Determine Next release Version
         id: semantic_release
         env:
           GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
