@@ -1,3 +1,15 @@
+# [2.1.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.0.1...v2.1.0) (2024-10-09)
+
+
+### Bug Fixes
+
+* Fix SA token usage ([4d2f770](https://github.com/venkat-odevo/semantic-release-test-repo/commit/4d2f770c9975d049516b013ef62774ceb1bc3e63))
+
+
+### Features
+
+* Change PAT Token to SA Token in workflow ([b3e2af5](https://github.com/venkat-odevo/semantic-release-test-repo/commit/b3e2af5c028635e38dc625242aa097a91dd4af03))
+
 ## [2.0.1](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.0.0...v2.0.1) (2024-10-08)
 
 
