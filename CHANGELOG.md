@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.2.0...v2.3.0) (2024-10-09)
+
+
+### Features
+
+* Adding feature to build with the next version ([3e98385](https://github.com/venkat-odevo/semantic-release-test-repo/commit/3e98385f70887ec896ce1ea17d6232d5d2099d0a))
+
 # [2.2.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.1.1...v2.2.0) (2024-10-09)
 
 
