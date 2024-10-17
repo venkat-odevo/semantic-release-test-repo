@@ -5,10 +5,15 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
 
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: checkout
         uses: actions/checkout@v3
@@ -25,7 +30,7 @@ jobs:
           path: ~/.m2/repository
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-maven-
-            
+
       - name: build
         run: mvn -f my-app/pom.xml clean install -DskipTests
 
