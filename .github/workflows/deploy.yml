@@ -27,7 +27,7 @@ jobs:
           restore-keys: ${{ runner.os }}-maven-
             
       - name: build
-        run: mvn -B pom.xml clean install -A -DskipTests
+        run: mvn -B pom.xml clean install -DskipTests
 
       - name: Set up GitHub Packages repository
         run: echo "<settings><servers><server><id>github</id><username>${{ github.actor }}</username><password>${{ secrets.GITHUB_TOKEN }}</password></server></servers></settings>" > $HOME/.m2/settings.xml
