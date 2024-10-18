@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.5.3...v2.6.0) (2024-10-18)
+
+
+### Features
+
+* update release job with deploy stage ([09cb757](https://github.com/venkat-odevo/semantic-release-test-repo/commit/09cb7578fc2323398fb942d72aedf1dfc50d1ceb))
+
 ## [2.5.3](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.5.2...v2.5.3) (2024-10-09)
 
 
