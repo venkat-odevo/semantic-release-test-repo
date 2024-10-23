@@ -1,3 +1,10 @@
+# [2.8.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.7.0...v2.8.0) (2024-10-23)
+
+
+### Features
+
+* update app version in pom during release ([c07c339](https://github.com/venkat-odevo/semantic-release-test-repo/commit/c07c339d6df9a30397345f6e57867e812eec3c67))
+
 # [2.7.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.6.3...v2.7.0) (2024-10-23)
 
 
