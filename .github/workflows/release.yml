@@ -49,4 +49,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
         run: npx semantic-release
-
