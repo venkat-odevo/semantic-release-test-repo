@@ -1,3 +1,10 @@
+## [2.6.3](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.6.2...v2.6.3) (2024-10-23)
+
+
+### Bug Fixes
+
+* Update README.md ([#3](https://github.com/venkat-odevo/semantic-release-test-repo/issues/3)) ([c5da803](https://github.com/venkat-odevo/semantic-release-test-repo/commit/c5da80304cc21dda3a148745b25a3699c0daf388))
+
 ## [2.6.2](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.6.1...v2.6.2) (2024-10-23)
 
 
