@@ -1,3 +1,10 @@
+## [2.8.1](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.8.0...v2.8.1) (2024-10-23)
+
+
+### Bug Fixes
+
+* update releaserc file ([41e88c2](https://github.com/venkat-odevo/semantic-release-test-repo/commit/41e88c2d0021293a6c05418ad154f4625333fd53))
+
 # [2.8.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.7.0...v2.8.0) (2024-10-23)
 
 
