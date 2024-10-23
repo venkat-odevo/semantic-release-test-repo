@@ -3,7 +3,7 @@ name: Release
 on:
   workflow_dispatch:
 
-permissions: write-all
+#permissions: write-all
 
 jobs:
   release:
