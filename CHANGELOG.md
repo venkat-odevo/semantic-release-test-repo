@@ -1,3 +1,15 @@
+# [2.7.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.6.3...v2.7.0) (2024-10-23)
+
+
+### Bug Fixes
+
+* Merge pull request [#5](https://github.com/venkat-odevo/semantic-release-test-repo/issues/5) from venkat-odevo/venkat-odevo-patch-5 ([a116a00](https://github.com/venkat-odevo/semantic-release-test-repo/commit/a116a00f852c5e9a3022103642ebb08347faed29))
+
+
+### Features
+
+* Update README.md ([#4](https://github.com/venkat-odevo/semantic-release-test-repo/issues/4)) ([3d31f71](https://github.com/venkat-odevo/semantic-release-test-repo/commit/3d31f71e0c001fee7d164080a075e996e896e083))
+
 ## [2.6.3](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.6.2...v2.6.3) (2024-10-23)
 
 
