@@ -42,43 +42,11 @@ jobs:
           application_id: ${{ vars.SA_ACCESS_TOKEN_ID }}
           application_private_key: ${{ secrets.SA_ACCESS_TOKEN }}
 
-      - name: Run Semantic Release to Determine Next release Version
-        id: semantic_release
-        env:
-          GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
-        run: |
-          set +e  # Allow the script to continue even if semantic-release exits with code 1
-          VERSION=$(npx semantic-release --dry-run || true)
-          
-          # Check if a version was actually calculated
-          if [[ $VERSION == *"The next release version is"* ]]; then
-            VERSION=$(echo "$VERSION" | grep -oP '(?<=The next release version is )\S+')
-            echo "$VERSION" > .next_version
-            echo "VERSION=$VERSION" >> $GITHUB_ENV
-          else
-            echo "No new version to release."
-          fi
-          set -e  # Re-enable exit on error for the rest of the script
-
       - name: Set up GitHub Packages repository
         run: echo "<settings><servers><server><id>github</id><username>${{ github.actor }}</username><password>${{ secrets.GITHUB_TOKEN }}</password></server></servers></settings>" > $HOME/.m2/settings.xml
   
-      - name: Build project with Release version
-        env:
-          VERSION: ${{ env.VERSION }}
-        run: |
-          echo "Building project with version ${VERSION}"
-          mvn -f my-app/pom.xml versions:set -DnewVersion="$VERSION" -DgenerateBackupPoms=false
-          mvn -f my-app/pom.xml clean install
-
       - name: Run semantic-release
         env:
           GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
         run: npx semantic-release
 
-      - name: deploy
-        run: |
-          mvn -f my-app/pom.xml versions:set -DnewVersion="$VERSION" -DgenerateBackupPoms=false
-          mvn -f my-app/pom.xml -B clean deploy -DskipTests
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

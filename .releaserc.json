@@ -16,8 +16,8 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "echo ${nextRelease.version} > .next_version",
-        "publishCmd": "mvn -f my-app/pom.xml clean install versions:set -DnewVersion=${nextRelease.version}"
+        "prepareCmd": "mvn -f my-app/pom.xml versions:set -DnewVersion=${nextRelease.version} -DgenerateBackupPoms=false",
+        "publishCmd": "mvn -B deploy -f my-app/pom.xml -DskipTests=true "
       }
     ]
   ]
