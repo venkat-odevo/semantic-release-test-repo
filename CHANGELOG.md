@@ -1,3 +1,13 @@
+# [3.0.0](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.8.1...v3.0.0) (2026-03-02)
+
+
+* Update release description to 'major release' ([e5c9e1c](https://github.com/venkat-odevo/semantic-release-test-repo/commit/e5c9e1c0dc5e739ecdab161c69a62b21554f5c51))
+
+
+### BREAKING CHANGES
+
+* Major version increment
+
 ## [2.8.1](https://github.com/venkat-odevo/semantic-release-test-repo/compare/v2.8.0...v2.8.1) (2024-10-23)
 
 
